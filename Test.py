@@ -17,7 +17,7 @@ def calc():
         num1 = int(request.form['num1'])
         num2 = int(request.form['num2'])
 
-        result = num1 + num2
+        result = num1 + num2 + 99
     return render_template('calc.html', sum=result, num1=num1, num2=num2)
 
 if __name__ == "__main__":
